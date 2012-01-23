@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="79">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="pga_machine" root=".">
+      <df name="instancias">
+      </df>
+      <df name="resultados">
+      </df>
+      <in>app.c</in>
+      <in>app.h</in>
+      <in>app2.c</in>
+      <in>app2.h</in>
+      <in>app2_g.c</in>
+      <in>app2_g.h</in>
+      <in>app2_ir.c</in>
+      <in>app2_ir.h</in>
+      <in>app2_ng.c</in>
+      <in>app2_ng.h</in>
+      <in>app_g.c</in>
+      <in>app_g.h</in>
+      <in>app_ir.c</in>
+      <in>app_ir.h</in>
+      <in>app_ng.c</in>
+      <in>app_ng.h</in>
+      <in>comunica.c</in>
+      <in>comunica.h</in>
+      <in>generate.c</in>
+      <in>generate.h</in>
+      <in>initial.c</in>
+      <in>initial.h</in>
+      <in>main.c</in>
+      <in>master.c</in>
+      <in>master.h</in>
+      <in>memory.c</in>
+      <in>memory.h</in>
+      <in>operators.c</in>
+      <in>operators.h</in>
+      <in>random.c</in>
+      <in>random.h</in>
+      <in>rselect.c</in>
+      <in>rselect.h</in>
+      <in>sga.h</in>
+      <in>statistic.c</in>
+      <in>statistic.h</in>
+      <in>utility.c</in>
+      <in>utility.h</in>
+      <in>var_pcp.h</in>
+      <in>var_pcpir.h</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f makefile</buildCommand>
+          <cleanCommand>${MAKE} -f makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem></pElem>
+            </incDir>
+          </cTool>
+        </makeTool>
+      </makefileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
